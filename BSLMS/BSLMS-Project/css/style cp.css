@@ -1,0 +1,67 @@
+/*body{
+    background-position: center bottom;
+    background-size: cover;
+    color :#01ab97;
+}*/
+
+.prog {
+    margin: 30px auto;
+}
+
+.prog img {
+
+    width: 70px;
+    margin-bottom: 20px;
+}
+#liste {
+    text-align: center;
+}
+#liste li {
+    display : inline-block;
+    width: 200px;
+    position: relative;
+}
+#liste li .fa-check, #liste li .fa-refresh, #liste li .fa-times{
+    background: #ccc;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    
+    
+}
+ .fa-check::after, .fa-refresh::after,.fa-times::after{
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 204px;
+    display: block;
+    position: absolute;
+    left: 0;  
+    top: 100px;
+    z-index: -1;
+
+}
+#liste #thi .fa-refresh{
+    background: #148e14;
+
+}
+#liste #thi .fa-refresh::after{
+    background: #148e14;
+}
+#liste #cl .fa-check,#liste #sec .fa-check{
+   background:#60aa97 ;
+}
+#liste #cl .fa-check::after , #liste #sec .fa-check::after{
+    background:#60aa97 ;
+
+}
+#liste #cl .fa-check::after{
+    width: 105px;
+    left:100px;
+}
+#liste #cla .fa-times::after{
+    width: 105px;
+}
+
